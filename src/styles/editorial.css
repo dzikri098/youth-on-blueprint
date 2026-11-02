@@ -4955,22 +4955,7 @@ p {
   font-size: 0.6875rem;
   color: rgba(255, 255, 255, 0.55);
   line-height: 1.45;
-  margin: 0 0 0.35rem 0;
-}
-
-.pin-footer-env-hint {
-  font-family: var(--font-mono);
-  font-size: 0.625rem;
-  color: rgba(215, 255, 63, 0.8);
-  display: block;
-}
-
-.pin-footer-env-hint code {
-  background-color: rgba(0, 0, 0, 0.35);
-  padding: 0.15rem 0.35rem;
-  border-radius: 3px;
-  border: 1px solid rgba(215, 255, 63, 0.25);
-  color: var(--accent-lime);
+  margin: 0;
 }
 
 /* Floating Lock Button on Website */

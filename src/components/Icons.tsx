@@ -546,6 +546,7 @@ export const IconLock: React.FC<IconProps> = ({ size = 16, ...props }) => (
   >
     <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
     <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+    <circle cx="12" cy="16" r="1" fill="currentColor" />
   </svg>
 );
 
@@ -564,6 +565,7 @@ export const IconUnlock: React.FC<IconProps> = ({ size = 16, ...props }) => (
   >
     <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
     <path d="M7 11V7a5 5 0 0 1 9.9-1" />
+    <circle cx="12" cy="16" r="1" fill="currentColor" />
   </svg>
 );
 
@@ -616,7 +618,10 @@ export const IconKey: React.FC<IconProps> = ({ size = 16, ...props }) => (
     aria-hidden="true"
     {...props}
   >
-    <path d="M21 2l-2 2m-1.5 1.5L16 7l-1.5-1.5L13 7l-1.5-1.5L10 7M7 10a5 5 0 1 0-5 5 5 5 0 0 0 5-5z" />
+    <circle cx="7.5" cy="15.5" r="5.5" />
+    <path d="m21 2-9.6 9.6" />
+    <path d="m15.5 7.5 2.5 2.5" />
+    <path d="m18.5 4.5 2.5 2.5" />
   </svg>
 );
 

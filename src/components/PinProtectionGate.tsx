@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { IconLock, IconUnlock, IconShield, IconEye, IconEyeOff, IconKey } from './Icons';
+import { IconLock, IconUnlock, IconEye, IconEyeOff, IconKey } from './Icons';
 
 interface PinProtectionGateProps {
   children: React.ReactNode;
@@ -166,7 +166,7 @@ export const PinProtectionGate: React.FC<PinProtectionGateProps> = ({ children }
 
           <div className="pin-lock-avatar-wrap">
             <div className={`pin-lock-avatar ${isSuccessUnlocking ? 'avatar-unlock' : ''}`}>
-              {isSuccessUnlocking ? <IconUnlock size={26} /> : <IconShield size={26} />}
+              {isSuccessUnlocking ? <IconUnlock size={28} /> : <IconLock size={28} />}
             </div>
           </div>
 
@@ -340,11 +340,9 @@ export const PinProtectionGate: React.FC<PinProtectionGateProps> = ({ children }
           <p className="pin-footer-text">
             Perlu PIN otorisasi? Hubungi tim koordinator inisiasi YOUTHON.
           </p>
-          <span className="pin-footer-env-hint">
-            Env Key: <code>VITE_ACCESS_PIN</code>
-          </span>
         </div>
       </div>
     </div>
   );
 };
+

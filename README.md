@@ -89,3 +89,4 @@ npm run preview
 ## Lisensi & Kerahasiaan
 
 Dokumen ini disusun untuk inisiasi kemitraan strategis **YOUTHON Movement**. Seluruh hak cipta dan konsep dilindungi.
+

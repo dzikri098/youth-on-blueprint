@@ -33,3 +33,7 @@ dist-ssr
 # Vercel
 .vercel
 
+# Agents
+.agents/
+AGENTS.md
+
